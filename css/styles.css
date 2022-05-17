@@ -1,15 +1,44 @@
 h1 {
   font-family: 'Montserrat', serif;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 900;
   line-height: 1.5;
+  color: white;
 }
 
 
 #title {
   background-color: #FF4C68;
+  height: 75%;
+  overflow: clip;
 }
 
 .container-fluid {
   padding: 3% 15%;
-  
+
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.nav-link {
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+  margin: auto 15px auto 15px;
+}
+
+.download-btn {
+  margin: 5% 1%;
+}
+
+.iphone-img {
+  height: 600px;
+  transform: rotate(30deg);
+  position: relative;
+  left: 35%;
+  top: 5%;
 }
