@@ -9,10 +9,11 @@ h1 {
   line-height: 1.5;
 }
 
-
 #title {
   background-color: #FF4C68;
   color: white;
+  height: 82%;
+  overflow: hidden;
 }
 
 .container-fluid {
@@ -20,7 +21,6 @@ h1 {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -41,14 +41,39 @@ h1 {
 }
 
 /* Download Buttons */
-
 .download-btn {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-
 .iphone-img {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+  text-align: center;
+  margin: 100px 200px;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 4rem;
+  line-height: 2;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+
+}
+
+.feature-desc {
+  color: #8f8f8f;
 }
