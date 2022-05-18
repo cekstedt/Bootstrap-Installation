@@ -54,14 +54,18 @@ h1 {
 /* Features Section */
 
 #features {
+  padding: 7% 15%;
+  /* margin: 100px 200px; */
+}
+
+.feature-box {
   text-align: center;
-  margin: 100px 200px;
+  padding: 5%;
 }
 
 .feature-icon {
   color: #ef8172;
-  font-size: 4rem;
-  line-height: 2;
+  margin-bottom: 1rem;
 }
 
 .feature-icon:hover {
