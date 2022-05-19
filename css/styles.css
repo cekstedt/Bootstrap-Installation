@@ -22,7 +22,7 @@ h3 {
 
 /* Navigation Bar */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -48,8 +48,10 @@ h3 {
 #title {
   background-color: #FF4C68;
   color: white;
-  height: 82%;
-  overflow: hidden;
+}
+
+.title-box {
+  position: relative; /* Needed to establish as parent of iphone-img after changing position to absolute. */
 }
 
 /* Download Buttons */
@@ -61,16 +63,20 @@ h3 {
 .iphone-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section */
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .feature-box {
   text-align: center;
-  padding: 5%;
+  padding: 4.5%;
 }
 
 .feature-icon {
