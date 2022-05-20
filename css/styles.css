@@ -35,6 +35,10 @@ h3 {
   font-weight: bold;
 }
 
+.navbar-nav {
+  text-align: right;
+}
+
 .nav-item {
   margin: auto 18px auto 18px;
 }
@@ -131,6 +135,50 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Call-To-Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7%;
+}
+
+.cta-download-btn {
+  margin: 8% 2%;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  padding: 7%;
+}
+
+.link-icon {
+  margin: 20px 8px;
+  color: black;
+  text-decoration: none;
+}
+
+.link-icon:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.link-icon:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #8f8f8f;
+}
+
+
+
+/* Mobile Changes */
 
 @media (max-width: 1028px) {
   #title {

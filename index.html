@@ -28,10 +28,10 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a href="" class="navbar-brand">tindog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a href="" class="nav-link">Contact</a>
@@ -128,7 +128,7 @@
   <section id="pricing">
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
-    <div class="row w-100">
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 w-100">
       <div class="pricing-column col col-lg-4 col-md-6 col-sm-12">
         <div class="card h-100">
           <div class="card-header">
@@ -190,18 +190,25 @@
   <!-- Call to Action -->
 
   <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <h1>Find the True Love of Your Dog's Life Today.</h1>
+    <button type="button" class="cta-download-btn btn btn-dark btn-lg">
+      <span class="fa-brands fa-apple"></span> Download
+    </button>
+    <button type="button" class="cta-download-btn btn btn-light btn-lg">
+      <span class="fa-brands fa-google-play"></span> Download
+    </button>
   </section>
 
   <!-- Footer -->
 
   <footer id="footer">
-
-    <p>© Copyright TinDog</p>
+    <div class="link-icon-bar">
+      <a href="twitter.com" class="link-icon fa-brands fa-twitter"></a>
+      <a href="facebook.com" class="link-icon fa-brands fa-facebook-f"></a>
+      <a href="instagram.com" class="link-icon fa-brands fa-instagram"></a>
+      <a href="mailto: someone@example.com" class="link-icon fa-solid fa-envelope"></a>
+    </div>
+    <p class="copyright">© Copyright 2018 TinDog</p>
 
   </footer>
 
