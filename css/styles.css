@@ -1,30 +1,41 @@
+/* Generic HTML Elements */
 body {
   font-family: 'Montserrat';
   font-weight: 500;
+  text-align: center
 }
 
-h1 {
-  font-size: 3.5rem;
+h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-weight: 700;
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-weight: 900;
-  font-size: 1.5rem;
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #FF4C68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
 }
 
 /* Navigation Bar */
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -49,21 +60,20 @@ h3 {
 }
 
 /* Title Section */
-#title {
-  background-color: #FF4C68;
-  color: white;
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .title-box {
-  position: relative; /* Needed to establish as parent of iphone-img after changing position to absolute. */
+  /* Needed to establish as parent of iphone-img after changing position to absolute. */
+  position: relative;
 }
 
-/* Download Buttons */
 .download-btn {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
 .iphone-img {
   width: 60%;
   transform: rotate(25deg);
@@ -73,13 +83,14 @@ h3 {
 
 /* Features Section */
 #features {
-  padding: 7% 15%;
-  background-color: white;
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 4.5%;
 }
 
@@ -98,9 +109,12 @@ h3 {
 
 /* Testimonials section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: white;
+}
+
+.testimonial-desc {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-img {
@@ -109,14 +123,9 @@ h3 {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press Section  */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -126,50 +135,28 @@ h3 {
 }
 
 /* Pricing section */
-
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* Call-To-Action Section */
-
-#cta {
-  background-color: #ff4c68;
-  color: white;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-.cta-download-btn {
-  margin: 8% 2%;
-}
-
 /* Footer Section */
-
-#footer {
-  text-align: center;
-  padding: 7% 15%;
-}
-
-.link-icon {
+.link-icon, .link-icon:visited {
   margin: 20px 10px;
-  color: black;
   text-decoration: none;
+  color: black;
 }
 
-.link-icon:hover {
+.link-icon:hover, .link-icon:visited:hover {
   color: grey;
-  text-decoration: none;
-}
-
-.link-icon:visited {
-  color: black;
-  text-decoration: none;
 }
 
 .copyright {
@@ -177,13 +164,13 @@ h3 {
 }
 
 /* Mobile Changes */
-
 @media (max-width: 1028px) {
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 
   .title-box {
+    /* Needed to establish as parent of iphone-img after changing position to absolute. */
     position: static;
   }
 
