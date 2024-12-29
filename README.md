@@ -21,7 +21,7 @@ This is a solution to the [TinDog](https://www.udemy.com/course/the-complete-web
 
 ### Screenshot
 
-![Screenshot](./thumbnail.png)
+![Screenshot](./thumbnail.jpg)
 
 ### Links
 
