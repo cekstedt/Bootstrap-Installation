@@ -1,4 +1,4 @@
-# London App Brewery - Angela's Site
+# London App Brewery - TinDog
 
 This is a solution to the [TinDog](https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12288088) challenge on [Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
 
