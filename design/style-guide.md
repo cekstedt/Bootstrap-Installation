@@ -14,8 +14,8 @@ Wireframe:
 
 ## Colors
 
-Hot Pink: #ff4c68
-Coral: #ef8172
+Hot Pink: #ff4c68  
+Coral: #ef8172  
 Philippine Gray: #8f8f8f
 
 ## Typography
