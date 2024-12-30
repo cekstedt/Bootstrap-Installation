@@ -9,7 +9,7 @@ Wireframe:
 
 ## Modules
 
-[Bootstrap 5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+[Bootstrap 5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/)  
 [FontAwesome 6.1.1](https://docs.fontawesome.com/web)
 
 ## Colors
