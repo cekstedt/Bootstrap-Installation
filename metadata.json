@@ -8,6 +8,5 @@
   "personal": false,
   "thumbnail": "thumbnail.jpg",
   "technologies": ["html", "css", "bootstrap", "draw.io"],
-  "status": "complete",
   "priority": "done"
 }
